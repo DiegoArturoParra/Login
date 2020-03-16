@@ -15,13 +15,6 @@ public partial class View_CrudeUsuario : System.Web.UI.Page
         {
             Response.Redirect("PrimerFormulario.aspx");
         }
-
-        if(((EUsuariocs)Session["userValido"]).RolId == 3)
-        {
-            IM_2.ImageUrl = "";
-        }
-
-
     }
 
     protected void B_Guardar_Click(object sender, EventArgs e)
